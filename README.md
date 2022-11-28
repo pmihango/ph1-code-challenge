@@ -12,6 +12,12 @@ This progect, prompts the user to input student marks. The input should be betwe
 
 A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40.
 
+-The program runs by prompting the user to enter student score
+
+-When a score is entered, the program will grade the student.
+
+-the grades are as per the grading system presented.
+
 
 
 
@@ -33,3 +39,19 @@ if the speed entered e.g 140 produces more than 12 point, then the output will b
 
 
 ## Challenge 3: Net Salary Calculator 
+
+The program calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. 
+
+It Calculates the payee (i.e. Tax), NHIFDeductions, NSSFDeductions, gross salary, and net salary. 
+
+Using the guidelines as per  KRA, NHIF, and NSSF values provided in the link below.
+
+https://www.aren.co.ke/payroll/taxrates.htm 
+
+https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye
+
+-to runn the program, access salary.js
+
+-on the last line enter the gross salary and the total benefits
+
+-run node salary.js on the terminal
