@@ -1,0 +1,20 @@
+{
+  "name": "code-challenge",
+  "version": "1.0.0",
+  "description": "ph1-code-challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "student",
+    "grades",
+    "speed",
+    "detector",
+    "net",
+    "salary",
+    "calculator"
+  ],
+  "author": "Paul Mihango",
+  "license": "ISC"
+}
