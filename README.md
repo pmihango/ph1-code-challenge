@@ -23,9 +23,11 @@ A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40.
 
 ## Challenge 2: Speed Detector
 
-Test the program, access the speed.js file
+-Test the program, access the speed.js file
 
-Find the testing condition at the last line. 
+-open the file in visual studio
+
+-find the testing condition at the last line. 
 
 console.log(speedDetector(70));
 
@@ -50,7 +52,9 @@ https://www.aren.co.ke/payroll/taxrates.htm
 
 https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye
 
--to runn the program, access salary.js
+
+
+-to run the program, access salary.js
 
 -on the last line enter the gross salary and the total benefits
 
