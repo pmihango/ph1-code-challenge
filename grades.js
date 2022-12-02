@@ -1,7 +1,20 @@
-//prompt const to allow us put in grades anytime asked
-//const prompt = ("prompt-sync");
-//let score =prompt("Please enter your grade");
-function grade(score){
+//program will as user to input the student score, press enter and it will process the grade
+
+const readline = require("readline");
+
+// create interface for input and output
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+// create empty user input
+let userInput = "";
+
+rl.question("What is your score\n", function (score) {
+    userInput = score;
+
+//function grade(score){
    
     if (score > 79 && score <=100) {
         console.log("Your Grade is A")
@@ -23,6 +36,8 @@ function grade(score){
         else{
             console.log("Please input a Value between 0 to 100")
         }
-    }
-grade()
-//returns the grade scored
+    
+      return score
+       
+        rl.close();
+      });
