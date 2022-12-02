@@ -11,13 +11,19 @@ It comprocises of three challeges namely the Students grade generator, Speed Det
 This progect, prompts the user to input student marks. The input should be between 0 and 100. Then it will output the correct grade as below:
 
 A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40.
+-Open the grades.js in vs code
 
--The program runs by prompting the user to enter student score
+-Run the command 
 
--When a score is entered, the program will grade the student.
+      node grades.js
 
--the grades are as per the grading system presented.
+-The program runs and prompts the user to enter student score.
 
+-Enter the student score. It should be tween 0 and 100
+
+-The programe will return the appropriate grade for the score entered
+
+-If you enter a figure less than 0 or greater than 100, it will prompt you to enter a score between 0 and 100
 
 
 
