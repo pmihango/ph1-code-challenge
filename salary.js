@@ -1,11 +1,15 @@
+const prompt = require('prompt-sync')();
+let salary = prompt ("Enter basic salary:")
+let benefits = prompt ("Enter benefits:")
 //declaring the variables
-let salary;
-let benefits;
+//let salary;
+//let benefits;
 let NHIF;
 let NSSF;
 let PAYE;
-function salCalc(salary, benefits){
-    let gross = salary + benefits;
+function salCalc(){
+    let gross = +salary + +benefits;
+    console.log(gross)
     let NSSF = gross * 0.06;
     // let netCalculator = gross;
 if (gross <= 24000) {
@@ -60,12 +64,15 @@ if (gross <= 24000) {
     //amount of nhif deductions
     console.log('Taxes: PAYE + NSSF + NHIF :', (NSSF + PAYE + NHIF ))
     //Total of taxes anf deductions
-    let netSalary = 'Net Salary:  ' + (gross - (NSSF + PAYE + NHIF ))
+    let netSalary = gross - (NSSF + PAYE + NHIF )
     //net salary which is gross minus toal of paye and deductions
-    return netSalary;
+    console.log(netSalary)
+    
 }
 }
-        console.log(salCalc(105000, 10000));
+salCalc()
+
+//console.log(salCalc(105000, 10000));
 //program returns 
 //Gross Salary
 //Paye

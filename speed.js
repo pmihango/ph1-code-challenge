@@ -15,5 +15,5 @@ function speedDetector(speed){
         }
     }
 }
-console.log(speedDetector(140));
+//console.log(speedDetector(140));
 //enter the speed to test the limit and generate points
