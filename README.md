@@ -50,8 +50,14 @@ https://www.aren.co.ke/payroll/taxrates.htm
 
 https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye
 
--to runn the program, access salary.js
+-clone the repository
 
--on the last line enter the gross salary and the total benefits
+-to run the program, access salary.js from the 
 
--run node salary.js on the terminal
+-run node salary.js
+
+-enter basic salary 
+
+-enter benefit
+
+The program will return calculations of the taxes and deductions.
